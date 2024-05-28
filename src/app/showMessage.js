@@ -2,7 +2,7 @@ export function showMessage (message, type = "success") {
     const colors = {
       success: "linear-gradient(90deg, rgba(170,227,161,1) 0%, rgba(125,196,116,1) 25%, rgba(124,191,113,1) 100%)",
       error: "red",
-      warning: "orange"
+      warning: "yellow"
     };
   
     Toastify({
